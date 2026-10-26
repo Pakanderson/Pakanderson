@@ -155,7 +155,7 @@ Full publication list on [ORCID](https://orcid.org/0009-0008-9996-784X).
 
 ### 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Paul%20K.%20L.%20Anderson-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paul-kwaku-larbi-anderson-ph-d-1a6762b1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Paul%20K.%20L.%20Anderson-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paul-kl-anderson)
 [![Medium](https://img.shields.io/badge/Medium-@pakandersonn-000000?logo=medium&logoColor=white)](https://medium.com/@pakandersonn)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--9996--784X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0008-9996-784X)
 [![Email](https://img.shields.io/badge/Email-pakandersonn%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:pakandersonn@gmail.com)
