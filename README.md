@@ -1,6 +1,6 @@
 ## Hi there 👋 I'm Paul!
 
-**Social Scientist & Applied Data Scientist** · PhD in Political Science · Siegen, NRW, Germany
+**Data Scientist & Social Scientist** · PhD in Political Science · Siegen, NRW, Germany
 
 I spent years as a researcher and lecturer asking how institutions work, how power is distributed, and how to draw valid inferences from messy, real-world social data, mostly through research on local governance and decentralisation in Ghana. Data science is how I now answer those same questions at scale. I bridge the gap between raw quantitative datasets and actionable, human-centric strategies, from survey design to deployed model.
 
