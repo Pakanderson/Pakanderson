@@ -57,7 +57,7 @@ I spent years as a researcher and lecturer asking how institutions work, how pow
 
 * **Inference:** Paired t-tests, regional trust gaps and a logistic regression with odds ratios. Trust in traditional leaders (0.95) and elected councils (0.92) is statistically indistinguishable, and 60.6% disapprove of councillor performance.
 * **Machine learning:** Random Forest robustness check with 5-fold cross-validation (ROC-AUC ~0.58), showing that demographics barely predict who leans traditional.
-* **App:** Interactive Streamlit dashboard, prediction tool and data explorer.
+* **App:** Interactive Streamlit dashboard, prediction tool and data explorer, [live here](https://ghana-dual-allegiance.streamlit.app).
 * [View Project Repository ➡️](https://github.com/Pakanderson/ghana-dual-allegiance-analysis)
 
 ---
