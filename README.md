@@ -23,7 +23,7 @@ I spent years as a researcher and lecturer asking how institutions work, how pow
 | **Languages & Core** | Python (pandas, NumPy, scikit-learn), SQL (MySQL), SQLAlchemy |
 | **Machine Learning & AI** | Supervised & unsupervised learning, regression, ensemble models, K-Means clustering, Retrieval-Augmented Generation (RAG), Ollama |
 | **Backend & Apps** | Flask, Streamlit, Gradio |
-| **Cloud & Deployment** | Google Cloud Platform (Cloud Functions, Cloud Scheduler, Cloud SQL), Hugging Face Spaces, Git/GitHub |
+| **Cloud & Deployment** | Google Cloud Platform (Cloud Functions, Cloud Scheduler, Cloud SQL), Hugging Face Spaces, Docker, Prefect, Git/GitHub |
 | **Data Visualization** | Tableau, Matplotlib, Seaborn |
 | **Research Methods** | Survey design, A/B testing & hypothesis testing, mixed methods, M&E, KoboToolbox, MAXQDA |
 
@@ -51,6 +51,17 @@ I spent years as a researcher and lecturer asking how institutions work, how pow
 
 ---
 
+### 🇬🇭 Dual Allegiance in Practice: Trust in Chiefs vs. Elected Councils in Ghana
+**Domain:** Computational Social Science & Survey Research
+> Tests the "dual allegiance" model from my own research on Ghanaian decentralisation, using Afrobarometer Round 9 survey data (n = 2,369).
+
+* **Inference:** Paired t-tests, regional trust gaps and a logistic regression with odds ratios. Trust in traditional leaders (0.95) and elected councils (0.92) is statistically indistinguishable, and 60.6% disapprove of councillor performance.
+* **Machine learning:** Random Forest robustness check with 5-fold cross-validation (ROC-AUC ~0.58), showing that demographics barely predict who leans traditional.
+* **App:** Interactive Streamlit dashboard, prediction tool and data explorer.
+* [View Project Repository ➡️](https://github.com/Pakanderson/ghana-dual-allegiance-analysis)
+
+---
+
 ### ☁️ Serverless GCP Cloud ETL Pipeline
 **Domain:** Data Engineering & Automated Cloud Architecture
 > A production-grade, end-to-end serverless ETL pipeline that automates data ingestion, transformation, and storage.
@@ -59,6 +70,28 @@ I spent years as a researcher and lecturer asking how institutions work, how pow
 * **Database & Transformation:** Relational schemas in Cloud SQL (MySQL), with Python scripts handling cleaning, structure mapping, and loading from REST APIs.
 * **Reporting:** Pipeline output feeds Tableau dashboards of daily and seasonal trends.
 * [View Project Repository ➡️](https://github.com/Pakanderson/gcp-cloud-functions-mysql-etl)
+
+---
+
+### 🏬 E-Commerce Data Warehouse (Olist)
+**Domain:** Data Engineering & Database Design
+> A star-schema warehouse built from ~100k real Olist e-commerce orders spread across 8 relational CSV files.
+
+* **ETL & Modelling:** pandas extract/transform/load into dimension and fact tables defined with SQLAlchemy ORM; idempotent full-refresh loads.
+* **Analytical SQL:** RFM segmentation, delivery performance, revenue trends and category rankings using joins, CTEs and window functions.
+* **Quality:** pytest suite for schema integrity and idempotency, plus a Streamlit dashboard on top of the warehouse.
+* [View Project Repository ➡️](https://github.com/Pakanderson/ecommerce-data-warehouse)
+
+---
+
+### 🚚 Supply Chain Analytics Pipeline (DataCo)
+**Domain:** Data Engineering & Pipeline Orchestration
+> An incremental ETL pipeline that normalises a 53-column flat file of ~180k supply-chain order lines into a relational schema.
+
+* **Incremental loading:** Watermark-driven monthly batches that are resumable and safe to re-run.
+* **Orchestration:** Prefect flow for retries and logging; SQLite by default, with an optional Postgres setup via Docker.
+* **Analytics & tests:** SQL queries on delivery risk, profitability and customer frequency, backed by a pytest suite.
+* [View Project Repository ➡️](https://github.com/Pakanderson/supply-chain-pipeline)
 
 ---
 
